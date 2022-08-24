@@ -9,10 +9,18 @@
 
   <body>
     <div class="wrapper">
+{{!-- HEADER --}}
       <header>
+{{!-- TITLE --}}
         <h1>
           <a href="/">Just Tech News</a>
         </h1>
+{{!-- NAVIGATION --}}
+        <nav>
+          <button id="logout" class="btn-no-style">logout</button>
+          <a href="/login">login</a>
+        </nav>
+
       </header>
       <main>
         {{{body}}}
@@ -21,7 +29,7 @@
         Thanks for visiting!
       </footer>
     </div>
-
+  <script src="/javascript/logout.js"></script>
   </body>
 
 </html>
